@@ -1,4 +1,3 @@
-module.exports={
-    calculatorController:require('./calculatorController'),
-    userController: require('./userController')
+module.exports = {
+    dataController: require('./dataController')
 }
