@@ -4,7 +4,7 @@
 
 'use strict';
 var Mongoose = require('mongoose');
-const mongoURI = "mongodb+srv://jasonpham:2RCvi88aChI2r5LU@cluster0.whz11gn.mongodb.net/?retryWrites=true&w=majority"
+const mongoURI = "mongodb+srv://alessio:alessio@nsw-bot.nkfb6.mongodb.net/?retryWrites=true&w=majority"
     ;
 //Connect to MongoDB
 Mongoose.connect(mongoURI, { useNewUrlParser: true, useUnifiedTopology: true }, (err) => {

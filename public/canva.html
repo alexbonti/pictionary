@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Draw your image</title>
+    <meta name="description" content="Drawing page">
+    <meta name="keywords" content="draw solution">
+    <link rel="stylesheet" href="style.css">
+    <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>CSM TODAY</title>
+  <meta name="description" content="CSM Today">
+  <meta name="author" content="SitePoint">
+
+
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <!-- Custom Style Sheet-->
+  <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body style="background-color: #ffffff;
+  color: rgb(46, 39, 39);">
+    <nav>
+      <div class="nav-wrapper navbar-size">
+        <a href="#" class="brand-logo"><img class="user-image-size" src="images/user-image.png" /> </a>
+      </div>
+  </nav>
+
+
+
+    <div id="container" class="container">
+      <div id="name-input" class="name-input">
+        <label> Enter your name: </label>
+        <input type="text" id="name" name="name" placeholder="Enter your name">
+      </div>
+      <div class="row">
+        <div class="col s6 l6 m6">
+          <a id="clear-button" class="waves-effect waves-light btn">Clear</a>
+        </div>
+        <div class="col s6 l6 m6">
+          <a id="save-button" class="waves-effect waves-light btn">Save</a>
+
+        </div>
+        
+        
+
+
+      </div>
+
+      <canvas id="drawing-area" class="drawing-area" height="400" width="400"> </canvas>
+      <button id="clear-button" class="clear-button" type="button">Clear</button>
+      <button id="save-button" class="save-button" type="button">Save</button>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  </body>
+</html>

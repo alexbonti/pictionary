@@ -1,0 +1,31 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 95vh;
+}
+
+#workspace{
+  width: 700px;
+  height:420px;
+  margin: 40px auto 20px auto;
+  border: black dashed 1px;
+}
+.drawing-area {
+  box-shadow: 0 0 6px 0 #999;
+}
+
+.clear-button {
+  margin: 2em;
+  font-size: 20px;
+}
+
+.save-button {
+  font-size: 20px;
+}
+
+.name-input {
+  margin: 1em;
+  font-size: 20px;
+}

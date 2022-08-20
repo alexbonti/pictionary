@@ -4,9 +4,9 @@ var express = require("express")
 var cors = require("cors")
 var path = require('path')
 var app = express()
-
 var dataRoute = require('./routes/dataRoute')
-app.use(express.static(__dirname + '/public'))
+app.use(express.static(__dirname + '/public',{
+extensions: ['html', 'htm']}))
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cors())
@@ -29,7 +29,7 @@ app.use(function (err, req, res, next) {
   // res.sendFile((__dirname+'/404.html'));
 });
 
-var port = process.env.port || 8000;
+var port = process.env.port || 4000;
 
 app.listen(port, () => {
   console.log("App listening to: " + port);
