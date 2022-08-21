@@ -14,7 +14,7 @@ const state = {
 // ===================
 // == Configuration ==
 // ===================
-const lineWidth = 20;
+const lineWidth = 3;
 const halfLineWidth = lineWidth / 2;
 const fillStyle = '#333';
 const strokeStyle = '#333';
